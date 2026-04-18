@@ -1,52 +1,38 @@
-# Prerequisites
-*.d
+# ==========================================
+# Pliki generowane przez Intel/Altera Quartus
+# ==========================================
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Bazy danych syntezy (Najcięższe pliki!)
+db/
+incremental_db/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Foldery z plikami wyjściowymi i raportami
+output_files/
+simulation/
+greybox_tmp/
+hc_output/
+timing/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Pliki obszaru roboczego (ustawienia okienek UI, specyficzne dla Twojego PC)
+*.qws
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Kopie zapasowe i pliki tymczasowe Quartusa
+*.bak
+*.kpt
+*.done
+*.rpt
+*.smsg
+*.summary
+*.jdi
+*.pin
+*.qdf
+*.sof
+*.pof
+*.jam
+*.jbc
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Ewentualne pliki z ModelSim/QuestaSim (jeśli używasz)
+work/
+transcript
+*.wlf
+modelsim.ini
